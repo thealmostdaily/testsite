@@ -13,7 +13,6 @@ notes: These are notes
 galleries:
 - _galleries/lemon.md
 - _galleries/apple.md
-published: false
 
 ---
 Words go here
