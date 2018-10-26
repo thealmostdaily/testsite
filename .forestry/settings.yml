@@ -15,13 +15,13 @@ sections:
   label: Galleries
   create: all
   match: "**/*"
-  templates:
-  - new-frontmatter
 - type: directory
   path: _new
   label: New
   create: all
   match: "**/*"
+  templates:
+  - new-frontmatter
 - type: directory
   path: _uploads
   label: Uploads
