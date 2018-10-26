@@ -82,3 +82,5 @@ fields:
       type: pages
       section: galleries
   description: Select a gallery for the work
+pages:
+- _new/test-artwork-page.md

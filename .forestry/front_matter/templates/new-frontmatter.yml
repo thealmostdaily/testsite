@@ -5,5 +5,3 @@ is_partial: false
 fields:
 - type: include
   template: envelope
-pages:
-- _new/test-artwork-page.md
