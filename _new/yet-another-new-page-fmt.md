@@ -12,7 +12,6 @@ medium: acrylic on canvas
 year: yesterday
 artist: Joe Smith
 notes: ''
-published: false
 
 ---
 Words go here. Content.
