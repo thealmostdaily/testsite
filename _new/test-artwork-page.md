@@ -16,4 +16,4 @@ galleries:
 published: false
 
 ---
-WOrd go here
+Words go here
