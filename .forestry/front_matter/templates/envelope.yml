@@ -1,18 +1,19 @@
 ---
-label: Envelope
-hide_body: 
-is_partial: 
+label: NewFMTemplate
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
-  default: ''
+  hidden: true
+  default: single-work
 - name: title
   label: Title
   type: textarea
   hidden: false
   default: ''
+  description: The title of the work
 - name: permalink
   label: Permalink
   type: text
@@ -23,36 +24,46 @@ fields:
   type: text
   hidden: false
   default: ''
+  description: Title of the work - this becomes part of the URL
 - name: image
   label: Image
   type: file
   hidden: false
   default: ''
+  description: Image of the work
 - name: thumbnail
   label: Thumbnail
   type: text
   hidden: false
   default: ''
 - name: dimensions
-  label: Dimensions
+  label: Dimensions ( w × h × l )
   type: text
   hidden: false
   default: ''
+  description: Dimensions of work
+  config:
+    required: false
 - name: medium
   label: Medium
   type: text
   hidden: false
   default: ''
+  description: eg. acrylic on canvas
 - name: year
   label: Year
   type: text
   hidden: false
   default: ''
+  description: 'Date of work '
+  config:
+    required: true
 - name: artist
   label: Artist
   type: text
   hidden: false
   default: ''
+  description: The artist's name, eg. Amy Sillman
 - name: notes
   label: Notes
   type: textarea
@@ -62,4 +73,12 @@ fields:
   label: Galleries
   type: list
   hidden: false
-  default: ''
+  default: []
+  config:
+    min: '1'
+    max: '3'
+    use_select: true
+    source:
+      type: pages
+      section: galleries
+  description: Select a gallery for the work
