@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="measure-wide center">
+<h1 class="near-black center">{{ page.title }}</h1>
+
+<ul class="list pl0 lh">
+
+  {% assign sorted_names = site.new| sort: 'artist' %}
+
+  <!-- sorts work dates into reverse order so most recent appears first -->
+  {% for item in sorted_names %}
+
+  <li class="dib mr2"><a href="{{ item.url }}" class="f4 f3-ns db pb2 pr2 link dim blue">{{ item.artist }}</a></li>
+  {% endfor %}
+
+</ul>
+
+
+<div class="f1 red">
+  {{ content }}
+</div>
+
+</div>

@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<!-- todo nicetohave. Use logic to decide if the hero image code is here or not. If hero image then code is present, else it's not -->
+
+
+
+  <div class="mb5 center mw8-ns">
+    <img src="/uploads/{{ page.image }}"  class="mw-100 db center"  >
+  </div>
+
+
+<header class="black center measure-wide">
+  <h1 class="near-black mw8 lh">{{page.artist}}</h2>
+    <h2 class="near-black mw8 mb2 lh">{{ page.title }}</h1>
+  <p class="silver lh mb5 mt2 f4">{{ page.medium }}<br />{{ page.dimensions }}<br />{{ page.year }}</p>
+
+</header>
+
+<article class ="black center measure-wide lh-copy f6 f2-ns">
+<p>{{page.notes}}</p>
+
+{{ content }}
+
+
+</article>
+
+<h3>Gallery</h3>
+{% assign gallery = site.galleries | where: 'title', page.galleries | first %}
+{% if gallery %}
+  <a href="{{ gallery.url }}">{{ gallery.title }}</a>
+{% endif %}
+
+<!--
+ Use definition lists for above with clip style
+
+ <dl class="mt2 f6 lh-copy">
+  <dt class="clip">Title</dt>
+  <dd class="ml0 black truncate w-100">Blonde</dd>
+  <dt class="clip">Artist</dt>
+  <dd class="ml0 gray truncate w-100">Frank Ocean</dd>
+</dl>
+
+-->
