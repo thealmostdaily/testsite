@@ -83,4 +83,5 @@ fields:
       section: galleries
   description: Select a gallery for the work
 pages:
+- _new/yet-another-new-page-fmt.md
 - _new/test-artwork-page.md
