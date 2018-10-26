@@ -3,3 +3,5 @@ label: NewFrontMatterTemplate
 hide_body: false
 is_partial: false
 fields: []
+pages:
+- _new/test-artwork-page.md
