@@ -1,0 +1,65 @@
+---
+label: Envelope
+hide_body: 
+is_partial: 
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: textarea
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: id_key
+  label: Id key
+  type: text
+  hidden: false
+  default: ''
+- name: image
+  label: Image
+  type: file
+  hidden: false
+  default: ''
+- name: thumbnail
+  label: Thumbnail
+  type: text
+  hidden: false
+  default: ''
+- name: dimensions
+  label: Dimensions
+  type: text
+  hidden: false
+  default: ''
+- name: medium
+  label: Medium
+  type: text
+  hidden: false
+  default: ''
+- name: year
+  label: Year
+  type: text
+  hidden: false
+  default: ''
+- name: artist
+  label: Artist
+  type: text
+  hidden: false
+  default: ''
+- name: notes
+  label: Notes
+  type: textarea
+  hidden: false
+  default: ''
+- name: galleries
+  label: Galleries
+  type: list
+  hidden: false
+  default: ''
