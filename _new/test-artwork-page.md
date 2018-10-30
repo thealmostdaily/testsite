@@ -15,6 +15,10 @@ galleries:
 - _galleries/apple.md
 
 ---
-Words go here
+Words go here 
 
 29 October 2018
+
+Even more words
+
+30 October 2018
