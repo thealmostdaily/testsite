@@ -5,7 +5,7 @@ thumbnail: thumb_image_00012.jpg
 title: Another time, another place
 dimensions: 2500 × 2750
 medium: House paint on wall
-year: '2010'
+work-year: '2010'
 artist: Pok Luckett  
 notes: chance of a new reality
 galleries: apple

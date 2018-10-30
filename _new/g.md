@@ -5,7 +5,7 @@ thumbnail: thumb_image_00007.jpg
 title: 'Here. Now. '
 dimensions: 2800 × 3500 approx
 medium: " House paint \L(Frosted Cream, Silver Thread, Earth Shadow)"
-year: '1890'
+work-year: '1890'
 artist: Micha Andrzejewski  
 notes: Lorem gibson RAF sense/net sub-orbital Korsakov's hotdog When It Changed math-
   3D-printed corporation Tokyo plastic hacker convenience store Blue Nine Mycotoxin

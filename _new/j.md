@@ -5,7 +5,7 @@ thumbnail: thumb_image_00010.jpg
 title: Envelope
 dimensions: '200 × 300 '
 medium: Acrylic on wooden panel
-year: '2000'
+work-year: '2000'
 artist: Pei Talton  
 notes: explicit and implicit layers
 galleries: "[apple \\, lemon]"

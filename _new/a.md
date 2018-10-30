@@ -6,7 +6,7 @@ title: "You will never make tomorrow’s appo intment after all… \LYou will be
   here at the Earl’s pleasure  "
 dimensions: '4500 × 250  '
 medium: Acrylic paint on wall
-year: '1980'
+work-year: '1980'
 artist: Kelsie Holcombe  
 notes: ephemeral nature of the human condition
 galleries: apple

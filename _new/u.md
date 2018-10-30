@@ -5,7 +5,7 @@ thumbnail: thumb_image_00022.jpg
 title: Way of the future
 dimensions: 375 × 410
 medium: Acrylic on reclaimed tongue and groove rimu
-year: '1890'
+work-year: '1890'
 artist: Gladys Priest  
 notes: Lorem gibson RAF sense/net sub-orbital Korsakov's hotdog When It Changed math-
   3D-printed corporation Tokyo plastic hacker convenience store Blue Nine Mycotoxin

@@ -5,7 +5,7 @@ thumbnail: thumb_image_00017.jpg
 title: Very You
 dimensions: " 400 × 400"
 medium: Acrylic on wooden panel
-year: '1990'
+work-year: '1990'
 artist: Dale Pellerin  
 notes: Lorem gibson shanty town car Tokyo assassin sentient spook yiheyuan filters
   systema Bosozoku city mimetic polycarbon suits Korsakov's motion gentlemen loser

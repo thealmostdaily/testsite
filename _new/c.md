@@ -5,7 +5,7 @@ thumbnail: thumb_image_00003.jpg
 title: Slipped Monochrome
 dimensions: 3150 × 3500
 medium: '"Water Trail" house paint, studio walls  '
-year: '2000'
+work-year: '2000'
 artist: Clarisa Welch  
 notes: chance of a new reality
 galleries: lemon

@@ -140,7 +140,8 @@ layout: default
 
 
 
-{% assign mid = site.new | sort: 'work-date' %}
+{% assign mid = site.new | sort: "%Y" %}
+
 {% assign projects = mid | reverse %}
 <!-- sorts work dates into reverse order so most recent appears first -->
   {% for item in projects %}
@@ -155,7 +156,7 @@ layout: default
         <dt class="clip">Title</dt>
         <dd class="ml0 black truncate w-100">{{ item.title }}</dd>
         <dt class="clip">Year</dt>
-        <dd class="ml0 gray truncate w-100">{{ item.year }}</dd>
+        <dd class="ml0 gray truncate w-100">{{ item.work-year }}</dd>
       </dl>
   </a>
 </div>

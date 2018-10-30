@@ -5,7 +5,7 @@ thumbnail: thumb_image_00014.jpg
 title: Useless (BlindsPO  t)
 dimensions: " 100 × 1200"
 medium: Acrylic paint on wall
-year: '2017'
+work-year: '2017'
 artist: Candy Pattison  
 notes: Lorem gibson RAF sense/net sub-orbital Korsakov's hotdog When It Changed math-
   3D-printed corporation Tokyo plastic hacker convenience store Blue Nine Mycotoxin

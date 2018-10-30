@@ -5,7 +5,7 @@ thumbnail: thumb_image_00019.jpg
 title: Less Use
 dimensions: 400 × 1620 × 80
 medium: Acrylic on wooden panels (2 pieces)
-year: '2010'
+work-year: '2010'
 artist: Florencio Clauss  
 notes: explicit and implicit layers
 galleries: lemon

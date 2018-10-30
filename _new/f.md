@@ -5,7 +5,7 @@ thumbnail: thumb_image_00006.jpg
 title: The Assessor
 dimensions: '400 × 400  '
 medium: Acrylic paint on wooden panel
-year: '2017'
+work-year: '2017'
 artist: Johnna Strausbaugh  
 notes: Lorem gibson RAF sense/net sub-orbital Korsakov's hotdog When It Changed math-
   3D-printed corporation Tokyo plastic hacker convenience store Blue Nine Mycotoxin

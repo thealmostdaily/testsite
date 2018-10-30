@@ -5,7 +5,7 @@ thumbnail: thumb_image_00024.jpg
 title: What we do is ALL that matters
 dimensions: 
 medium: Red Alert house paint
-year: '1990'
+work-year: '1990'
 artist: Rochell Rainbolt  
 notes: Lorem gibson RAF sense/net sub-orbital Korsakov's hotdog When It Changed math-
   3D-printed corporation Tokyo plastic hacker convenience store Blue Nine Mycotoxin

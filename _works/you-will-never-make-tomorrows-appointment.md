@@ -5,10 +5,10 @@ title: "You will never make tomorrow’s appointment after all… \LYou will be 
   here at the Earl’s pleasure  "
 medium: 4500 × 250mm
 dimensions: acrylic paint on wall
-year: '2012'
+year: 2012
 layout: single-work
 tags: wall-work
-hero: 
-thumb: 
+hero:
+thumb:
 permalink: "/works/you-will-never-make-tomorrows-appointment.html"
 ---

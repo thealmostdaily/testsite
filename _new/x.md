@@ -5,7 +5,7 @@ thumbnail: thumb_image_00025.jpg
 title: Grit
 dimensions: 207 × 250
 medium: 'Acrylic and imitation gold leaf on laser cut ply '
-year: '2000'
+work-year: '2000'
 artist: Linh Willeford  
 notes: Lorem gibson shanty town car Tokyo assassin sentient spook yiheyuan filters
   systema Bosozoku city mimetic polycarbon suits Korsakov's motion gentlemen loser

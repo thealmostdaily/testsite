@@ -10,7 +10,7 @@ image: "/uploads/tumblr_m5bfuzk8s41qzn7z6o1_400.jpg"
 thumbnail: ''
 dimensions: a4
 medium: acrylic on canvas
-year: yesterday
+work-year: yesterday
 artist: Joe Smith
 notes: ''
 

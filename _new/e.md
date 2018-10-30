@@ -5,7 +5,7 @@ thumbnail: thumb_image_00005.jpg
 title: Useless
 dimensions: 410 ×1610
 medium: Acrylic paint on top of Slipped Monochrome work
-year: '2009'
+work-year: '2009'
 artist: Nila Lazaro  
 notes: Lorem gibson RAF sense/net sub-orbital Korsakov's hotdog When It Changed math-
   3D-printed corporation Tokyo plastic hacker convenience store Blue Nine Mycotoxin

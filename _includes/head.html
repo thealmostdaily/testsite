@@ -218,6 +218,8 @@ wbr {         outline: 1px solid #DB175B!important; }
 
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
 
+<link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}

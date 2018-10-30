@@ -5,7 +5,7 @@ thumbnail: thumb_image_00013.jpg
 title: A specific fear revealed
 dimensions: 2200 x 2750
 medium: Acrylic paint on wall
-year: '2009'
+work-year: '2009'
 artist: Jimmy Luck  
 notes: 'yearning soon becomes manipulated
 

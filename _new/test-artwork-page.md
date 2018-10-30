@@ -7,7 +7,7 @@ image: "/uploads/January_29__2013_at_0630PM.jpg"
 thumbnail: ''
 dimensions: variable
 medium: acrylic on wall
-year: 2013(?)
+work-year: 2013(?)
 artist: 'John '
 notes: These are notes
 galleries:

@@ -5,7 +5,7 @@ thumbnail: thumb_image_00026.jpg
 title: 'Werk (13:TW8PBR1) '
 dimensions: '1420 x 260 x 50  '
 medium: Acrylic on hardboard
-year: '2010'
+work-year: '2010'
 artist: Larissa Chambers  
 notes: ephemeral nature of the human condition
 galleries: "[apple \\, lemon]"
