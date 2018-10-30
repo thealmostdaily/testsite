@@ -1,9 +1,3 @@
-PATH
-  remote: ../supernormal-theme
-  specs:
-    supernormal-theme (0.1.0)
-      jekyll (~> 3.8)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -48,6 +42,10 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
+    minima (2.5.0)
+      jekyll (~> 3.5)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
     pagemaster (2.0.1)
       jekyll (~> 3.0)
     pathutil (0.16.1)
@@ -72,8 +70,8 @@ DEPENDENCIES
   jekyll (>= 3.8.4)
   jekyll-feed (~> 0.6)
   jekyll-seo-tag (~> 2.4)
+  minima (~> 2.0)
   pagemaster
-  supernormal-theme!
 
 BUNDLED WITH
    1.16.2
