@@ -12,7 +12,6 @@ medium: instagram screen grab
 year: 2018
 artist: David gedge
 notes: Words go here.
-published: false
 
 ---
 Lorem gibson shanty town car Tokyo assassin sentient spook yiheyuan filters systema Bosozoku city mimetic polycarbon suits Korsakov's motion gentlemen loser dolphin temperfoam biochip personality uplink Night City.Lorem gibson shanty town car Tokyo assassin sentient spook yiheyuan filters systema Bosozoku city mimetic polycarbon suits Korsakov's motion gentlemen loser dolphin temperfoam biochip personality uplink Night City.Lorem gibson shanty town car Tokyo assassin sentient spook yiheyuan filters systema Bosozoku city mimetic polycarbon suits Korsakov's motion gentlemen loser dolphin temperfoam biochip personality uplink Night City.Lorem gibson shanty town car Tokyo assassin sentient spook yiheyuan filters systema Bosozoku city mimetic polycarbon suits Korsakov's motion gentlemen loser dolphin temperfoam biochip personality uplink Night City.
