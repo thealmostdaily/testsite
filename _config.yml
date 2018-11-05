@@ -31,9 +31,16 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# pagemaster was [ pagemaster ] but this caused array error when building / serving site in terminal
+
 plugins:
   - pagemaster
-# pagemaster was [ pagemaster ] but this caused array error when building / serving site in terminal
+
+# For the sitemap
+url: "http://artcollection.evenmorefantastic.com" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
+
 
 collections:
 #  works:
@@ -55,6 +62,7 @@ collections:
   galleries:
     title: Galleries
     output: true
+
 
 
 # Exclude from processing.
