@@ -36,21 +36,21 @@ plugins:
 # pagemaster was [ pagemaster ] but this caused array error when building / serving site in terminal
 
 collections:
-  works:
-    output: false
-    source: jekyll.csv
-    id_key: id_key
-    layout: single-work
+#  works:
+#    output: false
+#    source: jekyll.csv
+#    id_key: id_key
+#    layout: single-work
 
   uploads:
     output: true
 
-  new:
+  works:
     output: true
     source: new-works.csv
     id_key: id_key
     layout: single-work
-    permalink: /new/:path/
+    permalink: /works/:path/
 
   galleries:
     title: Galleries

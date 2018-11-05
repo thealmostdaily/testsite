@@ -6,7 +6,7 @@ layout: default
 
 <ul class="list pl0 lh">
 
-  {% assign sorted_names = site.new| sort: 'artist' %}
+  {% assign sorted_names = site.works| sort: 'artist' %}
 
   <!-- sorts work dates into reverse order so most recent appears first -->
   {% for item in sorted_names %}

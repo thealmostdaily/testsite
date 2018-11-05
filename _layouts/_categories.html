@@ -30,7 +30,7 @@ permalink: /categories/
 <h2>appless</h2>
 <ul class="list pl0 lh">
 
-  {% assign projects = site.new | where: "categories", "apple" | sort: 'title' %}
+  {% assign projects = site.works | where: "categories", "apple" | sort: 'title' %}
   {% for item in projects %}
 
       <li class="dib mr2"><a href="{{ item.url }}" class="f4 f3-ns db pb2 pr2 link dim blue">{{ item.title }}</a></li>
@@ -42,7 +42,7 @@ permalink: /categories/
 <h2>lemons</h2>
 <ul class="list pl0 lh">
 
-  {% assign projects = site.new | where: "categories", "lemon"  | sort: 'title'%}
+  {% assign projects = site.works | where: "categories", "lemon"  | sort: 'title'%}
 
   {% for item in projects %}
 
@@ -56,7 +56,7 @@ permalink: /categories/
 <h2>oranges</h2>
 <ul class="list pl0 lh">
 
-  {% assign projects = site.new | where: "categories", "orange" | sort: 'title' %}
+  {% assign projects = site.works | where: "categories", "orange" | sort: 'title' %}
 
   {% for item in projects %}
 
@@ -72,7 +72,7 @@ permalink: /categories/
 <h3>listing categories</h3>
 <ul class="list pl0 lh">
 
-  {% assign mid = site.new | sort: 'categories' %}
+  {% assign mid = site.works | sort: 'categories' %}
   {% assign projects = mid | reverse %}
   <!-- sorts work dates into reverse order so most recent appears first -->
   {% for item in projects %}
@@ -85,7 +85,7 @@ permalink: /categories/
 <h4>List of categories</h4>
 
 
-{% assign cats = site.new %}
+{% assign cats = site.works %}
 {% for item in cats %}
 <ul>
     <li class="dib mr2">{{ item.categories }}</li>
@@ -96,7 +96,7 @@ permalink: /categories/
 ---------
 
 
-{% for item in site.new %}
+{% for item in site.works %}
 <ul>
     <li class="dib mr2">{{ item.categories }}</li>
 </ul>
@@ -107,7 +107,7 @@ permalink: /categories/
 ++++++++++++++++
 
 
-{% assign groups = site.new | group_by: "categories" %}
+{% assign groups = site.works | group_by: "categories" %}
 
 
 {% for crew in groups %}
@@ -122,13 +122,13 @@ permalink: /categories/
 
 
 <h4>LOOPS</h4>
-<!-- {% for categories in site.new %}
+<!-- {% for categories in site.works %}
     {{ categories | first }}
 {% endfor %}-->
 <P>HELL</p>
 <!--
   <div id="archives">
-  {% for category in site.new %}
+  {% for category in site.works %}
     <div class="archive-group">
       {% capture category_name %}{{ category | first }}{% endcapture %}
       <div id="#{{ category_name | slugize }}"></div>
@@ -157,7 +157,7 @@ permalink: /categories/
 {% endfor %}
 
 
-{% assign catz = site.new | group_by:"categories" %}
+{% assign catz = site.works | group_by:"categories" %}
 
 {% for categories in catz %}
   <h1>{{ categories.name }}</h1>

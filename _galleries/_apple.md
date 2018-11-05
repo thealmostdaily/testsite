@@ -7,7 +7,7 @@ layout: default
 
 <ul class="list pl0 lh">
 
-  {% assign projects = site.new | where: "galleries", "apple" | sort: 'title' %}
+  {% assign projects = site.works | where: "galleries", "apple" | sort: 'title' %}
   {% for item in projects %}
 
       <li class="dib mr2"><a href="{{ item.url }}" class="f4 f3-ns db pb2 pr2 link dim blue">{{ item.title }}</a></li>
@@ -17,7 +17,7 @@ layout: default
 
 <div class="cf pv2 w-80 center">
 
-{% assign mid = site.new | sort: 'year' | where: "galleries", "apple"%}
+{% assign mid = site.works | sort: 'year' | where: "galleries", "apple"%}
 {% assign projects = mid | reverse %}
 
 <!-- sorts work dates into reverse order so most recent appears first -->
