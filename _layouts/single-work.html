@@ -7,7 +7,7 @@ layout: default
 
 
   <div class="mb5 mw8-ns">
-    <img src="/uploads/{{ page.image }}"  class="mw-100 db r"  >
+    <img src="/uploads/{{ page.image }}"  class="mw-100 db r" title="{{ page.title }}" alt="{{ page.title }}"  >
   </div>
 
 
@@ -27,12 +27,16 @@ layout: default
 </article>
 <p class="mt6 f3">Go back to the
 
+
 {% assign gallery = site.galleries | where: 'title', page.galleries | first %}
 {% if gallery %}
-  <a href="{{ gallery.url }}">{{ gallery.title }}</a>
+  <a href="{{ gallery.url }}">{{ gallery.title }}</a> gallery
+
+  {% else %}
+<a href="{{ site.url }}/the-collection/">the collection</a>
 {% endif %}
 
-gallery</p>
+</p>
 <!--
  Use definition lists for above with clip style
 
