@@ -6,32 +6,33 @@ layout: default
 
 
 
-  <div class="mb5 center mw8-ns">
-    <img src="/uploads/{{ page.image }}"  class="mw-100 db center"  >
+  <div class="mb5 mw8-ns">
+    <img src="/uploads/{{ page.image }}"  class="mw-100 db r"  >
   </div>
 
 
-<header class="black center measure-wide">
+<header class="black  measure-wide">
   <h1 class="near-black mw8 lh">{{page.artist}}</h2>
     <h2 class="near-black mw8 mb2 lh">{{ page.title }}</h1>
   <p class="silver lh mb5 mt2 f4">{{ page.medium }}<br />{{ page.dimensions }}<br />{{ page.year }}</p>
 
 </header>
 
-<article class ="black center measure-wide lh-copy f6 f2-ns">
+<article class ="black measure-wide lh-copy f6 f2-ns">
 <p>{{page.notes}}</p>
 
 {{ content }}
 
 
 </article>
+<p class="mt6 f3">Go back to the
 
-<h3>Gallery</h3>
 {% assign gallery = site.galleries | where: 'title', page.galleries | first %}
 {% if gallery %}
   <a href="{{ gallery.url }}">{{ gallery.title }}</a>
 {% endif %}
 
+gallery</p>
 <!--
  Use definition lists for above with clip style
 
