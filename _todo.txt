@@ -1,0 +1,10 @@
+- add seo plugin – https://github.com/jekyll/jekyll-seo-tag - see my site
+- sitemap? gem 'jekyll-sitemap'
+- add alt text and title text to images. title 
+
+
+https://support.google.com/customsearch/answer/4513751?hl=en&ref_topic=4513742&visit_id=636769926695836410-929619505&rd=1
+
+
+
+https://cse.google.com
