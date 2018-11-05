@@ -1,13 +1,25 @@
-<nav class="pv3 pv3-ns center measure-wide">
-
+<nav class="pv3 pv3-ns  ml0">
+<div>
   {%- assign default_paths = site.pages | map: "path" -%}
      {%- assign page_paths = site.header_pages | default: default_paths -%}
-  <a class="blue link hover-black f5 f4-ns dib mb3" title="Home" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-<br>
+<h1>  <a class="blue link hover-black f5 f2-ns dib mb3" title="Home" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+<!-- <br>
   {%- for path in page_paths -%}
     {%- assign my_page = site.pages | where: "path", path | first -%}
-    {%- if my_page.title !="Home" and my_page.title != "Colophon" -%}
+    {%- if my_page.title !="Home" -%}
     <a class="near-black link hover-blue  f5 f4-ns dib mr3" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
     {%- endif -%}
   {% endfor -%}
+
+ -->
+
+</div>
+<div>
+
+<a class="near-black link hover-blue f5 f2-ns dib mr4" href="/new">The Collection</a>
+
+<a class="near-black link hover-blue f5 f2-ns dib mr4" href="/galleries">Galleries</a>
+
+<a class="near-black link hover-blue f5 f2-ns dib mr4" href="/about">About the collection</a>
+</div>
 </nav>

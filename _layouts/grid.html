@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="center w-80">
+<div class="measure-wide">
   <h1 class="near-black lh-copy">{{ page.title }}</h1>
 </div>
 <article class="w-100">
@@ -134,8 +134,11 @@ layout: default
 </section>
 
 -->
-<div class="cf pv2 w-80 center">
 
+
+<div class="cf pv2 ">
+
+{{ content}}
 
 
 
@@ -149,7 +152,7 @@ layout: default
   <a href="{{ item.url }}" class="db link dim tl">
     <div class="aspect-ratio aspect-ratio--1x1 bg-white">
       <!-- <img src="works/{{ item.thumb }}"  class="aspect-ratio--object"> -->
-      <img style="background-image:url(works/{{ item.thumb }});"
+      <img style="background-image:url(uploads/{{ item.thumbnail }});"
         class="db bg-center cover aspect-ratio--object" />
     </div>
       <dl class="mt2 f6 lh-copy">

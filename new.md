@@ -1,4 +1,6 @@
 ---
 layout: grid
-title: NEW
+title: The collection
 ---
+
+Words about the collection could go here if desired.
