@@ -1,10 +1,30 @@
-- add seo plugin – https://github.com/jekyll/jekyll-seo-tag - see my site
-- sitemap? gem 'jekyll-sitemap'
-- add alt text and title text to images. title 
 
+# TODO
+
+- add seo plugin – https://github.com/jekyll/jekyll-seo-tag - see my site
+
+x  sitemap? gem 'jekyll-sitemap'
+
+x add title text to images. title
+
+- fix alt text on single-work html page.title needs to become page.alt and yaml needs to be added eg. alt:
+
+- check google search is covering all it should - galleries and images etc.
+
+- see if I can get lunr.js working (allow an hour)
+
+- double check site map
+
+- fix access to works folder (rename? change permissions? add an index file? add to collections)
 
 https://support.google.com/customsearch/answer/4513751?hl=en&ref_topic=4513742&visit_id=636769926695836410-929619505&rd=1
 
 
 
 https://cse.google.com
+
+
+
+
+
+http://tachyons.io/components/forms/newsletter-subscription/index.html
