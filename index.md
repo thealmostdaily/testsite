@@ -5,6 +5,8 @@
 layout: page
 ---
 
-# Home sweet homepage
+Wellington City Council has an art collection of over 500 traditional and contemporary artworks. New works are purchased each year.
 
-Lorem gibson corporation garage simstim deck sprawl city spook papier-mache network bomb screen sensory engine silent galaxy warehouse. Euro-pop shoes boy ROM construct long-chain hydrocarbons engine arcology realism temperfoam warehouse Freeside. Corrupted Ono-Sendai plastic mimetic polycarbon suits watch nano-icebreaker Maas Biolabs SIN screen city new yen derm/dermadisk rain Korsakov's icebreaker disposable warp woman memory. Fluidity into Ono-Sendai urban ice Tessier-Ashpool matrix meta-engine long-chain hydrocarbons fluidity derm/dermadisk bicycle Tessier-Ashpool.
+Unique.
+
+More interesting text and images.

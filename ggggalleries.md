@@ -1,6 +1,5 @@
 ---
 layout: galleries
 title: The galleries
-permalink: /galleries/
 ---
 This text is content from the md file.  
