@@ -1,0 +1,16 @@
+---
+layout: null
+---
+{
+  {% for item in site.works %}
+
+    "{{ item.url | slugify }}": {
+      "title": "{{ item.title | xml_escape }}",
+      "notes"	 : "{{ item.notes | strip_html | strip_newlines | remove:  "	" | escape | remove: "\"}}",
+      "url": " {{ item.url | xml_escape }}",
+      "artist": "{{ item.artist | xml_escape }}",
+      "galleries": "{% for gallery in item.galleries %}{{ gallery }}{% unless forloop.last %}, {% endunless %}{% endfor %}"
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

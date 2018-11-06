@@ -17,6 +17,13 @@ x add title text to images. title
 
 - fix access to works folder (rename? change permissions? add an index file? add to collections)
 
+- lazyload (double my images / turn off cache)
+
+- fix galleries yaml on knackered files - one galelry per files.
+- test two galleries: yaml eg.
+galleries: orange
+galleries: pineapple
+
 https://support.google.com/customsearch/answer/4513751?hl=en&ref_topic=4513742&visit_id=636769926695836410-929619505&rd=1
 
 

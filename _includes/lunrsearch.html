@@ -1,0 +1,49 @@
+<!-- lunr search gubbins goes here -->
+<!--
+
+Powered by <a href="/blog/2016/01/04/how-to-make-lunrjs-jekyll-work-together/">lunr.js</a>.
+
+<br/>&nbsp;
+<form action="get" id="site_search">
+<center>
+  <input style="font-size:20px;" type="text" id="search_box">
+  <input style="font-size:20px;" type="submit" value="Go!">
+</center>
+</form>
+<br/>&nbsp;
+<br/>&nbsp;
+
+ <ul id="search_results"></ul>
+
+
+<script src="/js/lunr.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/search.js"></script>
+
+
+-->
+
+<form action="/search.html" method="get">
+  <label for="search-box">Search</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
+
+<ul id="search-results"></ul>
+
+<script>
+  window.store = {
+    {% for item in site.works %}
+      "{{ item.url | slugify }}": {
+        "title": "{{ item.title | xml_escape }}",
+        "artist": "{{ item.artist| xml_escape }}",
+        "gallery": "{{ item.gallery | xml_escape }}",
+        "notes": {{ item.notes | strip_html | strip_newlines | jsonify }},
+        "url": "{{item.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+</script>
+<script src="/js/lunr.js"></script>
+<script src="/js/search.js"></script>

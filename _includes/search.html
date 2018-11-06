@@ -1,12 +1,15 @@
-<script>
-  (function() {
-    var cx = '013198940892219616851:cjeu4zgyi0u';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
+
+<script src="/scripts/documents.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/scripts/search.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<h2>Search</h2>
+
+<p>Simple search function searching the collection using Lunr.js</p>
+
+<div class="pb4"><input placeholder="Search" id="search" autocomplete="off"></div>
+<div id="results" class="mb2"></div>
+<p id="noresults" style="display:none;">No results yet. <br />Type the full word or try another search term.</p>
