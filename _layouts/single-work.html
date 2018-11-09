@@ -12,14 +12,14 @@ layout: default
 
 
 <header class="black  measure-wide">
-  <h1 class="near-black mw8 lh">{{page.artist}}</h2>
-    <h2 class="near-black mw8 mb2 lh">{{ page.title }}</h1>
+  <h1 class="near-black mw8 lh">{{page.artist}}</h1>
+    <h2 class="near-black mw8 mb2 lh">{{ page.title }}</h2>
   <p class="silver lh mb5 mt2 f4">{{ page.medium }}<br />{{ page.dimensions }}<br />{{ page.year }}</p>
 
 </header>
 
 <article class ="black measure-wide lh-copy f6 f2-ns">
-<p>{{page.notes}}</p>
+<p>{{ page.notes | markdownify }}</p>
 
 {{ content }}
 
