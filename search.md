@@ -1,9 +1,9 @@
 ---
 title: Search
-layout: default
+layout: page
 permalink: /search/
 ---
 
-
+Words from md file.
 
 {%- include search.html -%}

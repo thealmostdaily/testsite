@@ -3,7 +3,6 @@ layout: null
 ---
 
 
-
 {% assign id = 0 %}
 var works = [
   {% for work in site.works %}
@@ -16,8 +15,5 @@ var works = [
       "id": "{{id}}"
     }{% unless forloop.last %},{% endunless %}
   {% assign id = id | plus: 1 %}{% endfor %}
-
-
-
 
 ];

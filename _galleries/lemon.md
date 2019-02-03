@@ -1,7 +1,7 @@
 ---
 title: lemon
 layout: default
-description: Description of the gallery.
+description: Sharp, like a lemon.
 ---
 
 

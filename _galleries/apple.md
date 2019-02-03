@@ -1,7 +1,7 @@
 ---
 title: apple
 layout: default
-description: Description of the gallery
+description: Crisp, like a Granny Smith.
 ---
 
 <div class="cf pv2 w-100">

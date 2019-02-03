@@ -1,6 +1,6 @@
 ---
 title: orange
-description: Description of the gallery.
+description: Oh so juicy!
 layout: default
 ---
 

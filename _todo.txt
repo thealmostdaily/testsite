@@ -35,3 +35,7 @@ https://cse.google.com
 
 
 http://tachyons.io/components/forms/newsletter-subscription/index.html
+
+
+
+- Fix menu so it works with forestry – Use jekyll menu plugin.
