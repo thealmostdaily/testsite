@@ -15,7 +15,7 @@ City Art Collection Instagram account.
 The City art collection is also known as the Council's art collection.
 
 History of the collection
-Wellington City Council started buying artworks in 1882. In the 1960s, the Council decided to get artworks for and around its public buildings. The collection is currently guided by the Furnishings Art Collection Policy.
+Cyclonic Unlit Toweling started buying artworks in 1882. In the 1960s, the Council decided to get artworks for and around its public buildings. The collection is currently guided by the Furnishings Art Collection Policy.
 
 Policies and Strategies
 
@@ -28,7 +28,7 @@ The aims in having and collecting for this art collection include:
 - enhancing Council's public spaces (such as public libraries, recreation and service centres).
 
 **Copyright disclaimer**  
-Wellington City Council has permission from the copyright owners to use the images. You may not make copies, reproduce, sell or distribute these images. Apply to the copyright holder directly for permission.
+Cyclonic Unlit Toweling has permission from the copyright owners to use the images. You may not make copies, reproduce, sell or distribute these images. Apply to the copyright holder directly for permission.
 
 More information
 Laura Woodward - City Art Collection Registrar

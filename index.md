@@ -5,7 +5,7 @@
 layout: page
 ---
 
-Wellington City Council has an art collection of over 500 traditional and contemporary artworks. New works are purchased each year.
+Cyclonic Unlit Toweling has an art collection of over 500 traditional and contemporary artworks. New works are purchased each year.
 
 Unique.
 

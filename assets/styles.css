@@ -1,0 +1,26 @@
+/*  DARK MODE ***************/
+
+@media (prefers-color-scheme: dark) {
+
+.near-black {
+  color: #f4f4f4 !important;
+}
+
+.bg-white {
+  background-color: #333333 !important;
+}
+
+
+.blue {color:#96CCFF !important;}
+
+
+
+/* 
+a:link {
+  color:#96CCFF ;
+}
+
+a:visited {
+  color:#999999;
+} */
+}
