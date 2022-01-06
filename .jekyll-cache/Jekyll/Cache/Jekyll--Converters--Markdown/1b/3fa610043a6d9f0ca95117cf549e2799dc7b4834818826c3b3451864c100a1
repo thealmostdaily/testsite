@@ -1,0 +1,235 @@
+I"_!<div class="cf pv2 w-100">
+<h1>The apple gallery</h1>
+
+<!-- list of works -->
+<!-- <ul class="list pl0 lh">
+
+  
+  
+
+      <li class="dib mr2"><a href="/works/k.html" class="f4 f3-ns db pb2 pr2 link dim blue">Another time, another place</a></li>
+
+  
+
+      <li class="dib mr2"><a href="/the-collection/1.html" class="f4 f3-ns db pb2 pr2 link dim blue">Not me (prototype) in two galleries</a></li>
+
+  
+
+      <li class="dib mr2"><a href="/works/f.html" class="f4 f3-ns db pb2 pr2 link dim blue">The Assessor</a></li>
+
+  
+
+      <li class="dib mr2"><a href="/works/p.html" class="f4 f3-ns db pb2 pr2 link dim blue">Very You</a></li>
+
+  
+
+      <li class="dib mr2"><a href="/works/5.html" class="f4 f3-ns db pb2 pr2 link dim blue">Very You #6  </a></li>
+
+  
+
+      <li class="dib mr2"><a href="/works/u.html" class="f4 f3-ns db pb2 pr2 link dim blue">Way of the future</a></li>
+
+  
+
+      <li class="dib mr2"><a href="/works/z.html" class="f4 f3-ns db pb2 pr2 link dim blue">Werk (25:QM1PBG1TW2) </a></li>
+
+  
+
+      <li class="dib mr2"><a href="/works/20.html" class="f4 f3-ns db pb2 pr2 link dim blue">Work #10</a></li>
+
+  
+
+      <li class="dib mr2"><a href="/works/10.html" class="f4 f3-ns db pb2 pr2 link dim blue">Work #4  </a></li>
+
+  
+
+      <li class="dib mr2"><a href="/works/15.html" class="f4 f3-ns db pb2 pr2 link dim blue">Work #8</a></li>
+
+  
+
+      <li class="dib mr2"><a href="/works/a.html" class="f4 f3-ns db pb2 pr2 link dim blue">You will never make tomorrow’s appo intment after all…  You will be detained here at the Earl’s pleasure  </a></li>
+
+  
+</ul>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- sorts work dates into reverse order so most recent appears first -->
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/the-collection/1.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00028.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">Not me (prototype) in two galleries</dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">2017</dd>
+      </dl>
+  </a>
+</div>
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/works/u.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00022.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">Way of the future</dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">1890</dd>
+      </dl>
+  </a>
+</div>
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/works/p.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00017.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">Very You</dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">1990</dd>
+      </dl>
+  </a>
+</div>
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/works/k.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00012.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">Another time, another place</dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">2010</dd>
+      </dl>
+  </a>
+</div>
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/works/f.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00006.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">The Assessor</dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">2017</dd>
+      </dl>
+  </a>
+</div>
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/works/a.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00001.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">You will never make tomorrow’s appo intment after all…  You will be detained here at the Earl’s pleasure  </dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">1980</dd>
+      </dl>
+  </a>
+</div>
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/works/5.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00032.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">Very You #6  </dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">2000</dd>
+      </dl>
+  </a>
+</div>
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/works/20.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00048.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">Work #10</dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">2010</dd>
+      </dl>
+  </a>
+</div>
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/works/15.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00043.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">Work #8</dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">2017</dd>
+      </dl>
+  </a>
+</div>
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/works/10.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00037.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">Work #4  </dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">1980</dd>
+      </dl>
+  </a>
+</div>
+  
+  <div class="fl w-50 w-third-m w-20-l pv2 pr4 ">
+  <a href="/works/z.html" class="db link dim tl">
+    <div class="aspect-ratio aspect-ratio--1x1 bg-white">
+      <!-- <img src="works/"  class="aspect-ratio--object"> -->
+      <img style="background-image:url(../uploads/thumb_image_00027.jpg);" class="db bg-center cover aspect-ratio--object" />
+    </div>
+      <dl class="mt2 f6 lh-copy">
+        <dt class="clip">Title</dt>
+        <dd class="ml0 black truncate w-100">Werk (25:QM1PBG1TW2) </dd>
+        <dt class="clip">Year</dt>
+        <dd class="ml0 gray truncate w-100">2009</dd>
+      </dl>
+  </a>
+</div>
+  
+
+</div>
+:ET
