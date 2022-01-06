@@ -1,0 +1,40 @@
+---
+layout: page
+---
+
+<h1>Galleries</h1>
+
+
+<ul>
+  {% assign gallery = site.galleries | sort: 'title' %}
+
+  {% for gallery in site.galleries %}
+    <li><a href="{{ item.url }}">{{ gallery.title }}</a></li>
+  {% endfor %}
+</ul>
+
+
+ 
+
+<h4>List of Years from Works folder</h4>
+
+
+<!-- 
+<ul>
+  {% assign workyear = site.works | sort: 'work-year' %}
+  {% for item in workyear %}
+    <li><a href="{{ item.url }}">{{ item.work-year }}</a></li>
+  {% endfor %}
+</ul>
+
+-->
+
+{% assign sorted_by_year = site.works | sort: 'work-year' %}
+
+{% for item in sorted_by_year %}
+
+<li class="dib mr2"><a href="{{ item.url }}" class="f4 f3-ns db pb2 pr2 link dim blue">{{ item.work-year }}</a></li>
+
+{% endfor %}
+
+
