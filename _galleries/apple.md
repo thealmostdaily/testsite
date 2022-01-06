@@ -26,7 +26,7 @@ description: Crisp, like a Granny Smith.
 
 
 
-{% assign mid = site.works |  where: "galleries", "apple" | sort: "%Y" %}
+{% assign mid = site.works |  where: "galleries", "apple" | sort: "work-year" %}
 
 {% assign projects = mid | reverse %}
 <!-- sorts work dates into reverse order so most recent appears first -->
@@ -47,5 +47,7 @@ description: Crisp, like a Granny Smith.
   </a>
 </div>
   {% endfor %}
+
+
 
 </div>
