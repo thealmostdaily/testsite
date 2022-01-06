@@ -35,6 +35,7 @@ Powered by <a href="/blog/2016/01/04/how-to-make-lunrjs-jekyll-work-together/">l
     {% for item in site.works %}
       "{{ item.url | slugify }}": {
         "title": "{{ item.title | xml_escape }}",
+        "medium": "{{ item.medium | xml_escape }}",
         "artist": "{{ item.artist| xml_escape }}",
         "gallery": "{{ item.gallery | xml_escape }}",
         "notes": {{ item.notes | strip_html | strip_newlines | jsonify }},

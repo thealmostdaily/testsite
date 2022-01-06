@@ -2,7 +2,7 @@ _site
 public
 .sass-cache
 .jekyll-metadata
-.jekyll-cache/
+.jekyll-cache
 *-cache/
 
 _uploads

@@ -7,6 +7,7 @@ var idx = lunr(function () {
   this.field('artist', { boost: 5 })
   this.field('notes', { boost: 2 })
   this.field('work-year')
+  this.field('medium')
 
 works.forEach(function (work) {
     this.add(work)

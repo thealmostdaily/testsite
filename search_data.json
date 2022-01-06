@@ -6,6 +6,7 @@ layout: null
 
     "{{ item.url | slugify }}": {
       "title": "{{ item.title | xml_escape }}",
+      "medium": "{{ item.medium | xml_escape }}",
       "notes"	 : "{{ item.notes | strip_html | strip_newlines | remove:  "	" | escape | remove: "\"}}",
       "url": " {{ item.url | xml_escape }}",
       "artist": "{{ item.artist | xml_escape }}",
