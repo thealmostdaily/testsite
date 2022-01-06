@@ -10,6 +10,7 @@ var works = [
       "title": "{{ work.title | escape }}",
       "medium": "{{ work.medium | escape }}",
       "artist": "{{ work.artist | escape }}",
+      "work-year": "{{ work.work-year | escape }}",
       "notes": "{{ work.notes | strip_html | strip_newlines | escape }}",
       "url": "{{ work.url | escape }}",
       "work-year": "{{ work.work-year | escape }}",
