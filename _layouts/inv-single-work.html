@@ -19,13 +19,54 @@ layout: default
 
 </header>
 
-<article class ="black measure-wide lh-copy f6 f2-ns">
+<article class ="near-black measure-wide lh-copy f6 f2-ns">
+
+<ul>
+  <li>Status: {{ page.status }}</li>
+  <li>Price: {{ page.price }}</li>
+<!-- use if then formats to show relevant info -->
+  <li>Location of work: {{ location-of-work }}</li>
+  
+  <li>Owner: {{ page.owner}}</li>
+  <li>Sold on: {{ date-bought }}</li>
+<li>Sold by: {{ page.sold-by }}</li>
+
+</ul>
+
 <p>{{ page.notes | markdownify }}</p>
+
+
+<dl class="mv2">
+<dt class="ml0 dib near-black w-20">Status</dt>
+  <dd class="ml0 dib near-black">{{ page.status }}</dd>
+</dl>
+<dl class="mv2">
+  <dt class="ml0 dib near-black w-20">Price</dt>
+   <dd class="ml0 dib near-black">{{ page.price }}</dd>
+</dl>
 
 {{ content }}
 
 
 </article>
+
+<dl class="mt2 near-black f2 lh-copy mv2">
+
+<dt class="dib ">Status</dt>
+<dd class=" dib ml0">{{ page.status }}</dd>
+ </dl>
+
+<dl class="mt2 f2 lh-copy mv2">
+<dt class=" dib near-black">Price</dt>
+<dd class=" dib near-black ml0">{{ page.price }}</dd>
+ </dl>
+<dl class="mt2 f2 lh-copy mv2">
+    <dt class="dib b">L:</dt>
+    <dd class="dib ml0 gray">Losses</dd>
+  </dl>
+
+
+
 <p class="mt6 f3">Go back to the
 
 
@@ -38,7 +79,8 @@ layout: default
 {% endif %}
 
 </p>
-<!--
+
+
  Use definition lists for above with clip style
 
  <dl class="mt2 f6 lh-copy">
@@ -48,4 +90,4 @@ layout: default
   <dd class="ml0 gray truncate w-100">Frank Ocean</dd>
 </dl>
 
--->
+

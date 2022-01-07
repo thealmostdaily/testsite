@@ -1,0 +1,45 @@
+---
+date: 2022-01-07 00:00:00 +12:00
+layout: inv-single-work
+
+public: false
+# public: true = work published on my website. Public content will need to be be controlled through the build process / if then statements in templates ie. if private include all yaml, if public then only "x" 
+ 
+hero: Gary-Peters_Test-Wall-Work_2019_C_1600.jpg
+thumb: Gary-Peters_Test-Wall-Work_2019_C_thumb.jpg
+
+title: Elvis (Test Piece)
+medium: acrylic on wall
+dimensions: 2800 × 2000mm (approx)
+year: 2019
+
+
+# delete as appropriate
+status: destroyed 
+price: 000
+
+type:
+# delete as appropriate
+- wallwork
+- monochrome
+
+exhibitions:
+# - exhibition-title
+# - exhibition-title-2 
+
+# public notes (could be in content?)
+
+notes: Test wall work made in Studio 30, Toi Pōneke, July 2019.
+
+
+# private info
+owner: artist
+date-bought: na
+sold-by: na
+location-of-work: na
+private-notes:
+
+
+---
+
+
